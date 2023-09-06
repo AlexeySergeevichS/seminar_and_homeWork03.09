@@ -18,13 +18,13 @@ double ReturnPi(int round)
     ulong i = 1;
     sbyte k = 1;
     uint count = 1;
-    double accuracy=Math.Pow(10, -round);
-    double diff =Math.Abs(numPiNext - numPi);
+    double accuracy = Math.Pow(10, -round);
+    double diff = Math.Abs(numPiNext - numPi);
     while (true)
     {
         Console.Write($"Итерация {count}, пи(текущ)={numPi}, ");
         numPi += NilPi(i, k);
-        diff=Math.Abs(numPiNext - numPi);
+        diff = Math.Abs(numPiNext - numPi);
         Console.WriteLine($"пи(след)={numPi} точность={accuracy}, текущая разница={diff}");
         if (diff < accuracy) return numPi;
         numPiNext = numPi;
