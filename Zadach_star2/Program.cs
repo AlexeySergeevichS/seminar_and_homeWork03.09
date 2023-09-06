@@ -4,6 +4,8 @@
 Точность расчета не должна сравниваться с уже известным значением числа, 
 то есть цикл останавливается не потому, что Вы точно знаете, что в сотых будет ,14. 
 Вы этого не знаете. Программа должна сама оценить, когда точность достигнута. */
+using System.Runtime.CompilerServices;
+
 int InputNum(string message)
 {
     Console.Write(message);
@@ -12,18 +14,20 @@ int InputNum(string message)
 double ReturnPi(int round)
 {
     double numPi = 3.0;
-    double numPiR = 3.0;
+    double numPiNext = 3.0;
     ulong i = 1;
     sbyte k = 1;
     uint count = 1;
+    double accuracy=Math.Pow(10, -round);
+    double diff =Math.Abs(numPiNext - numPi);
     while (true)
     {
-        Console.Write($"Итерация {count} пи(округ)={numPiR} ");
-        numPiR = Math.Round(numPi, round);
+        Console.Write($"Итерация {count}, пи(текущ)={numPi}, ");
         numPi += NilPi(i, k);
-        Console.WriteLine($"пи={numPi}");
-        if (numPiR == Math.Round(numPi, round)) return numPiR;
-        numPiR = Math.Round(numPi, round);
+        diff=Math.Abs(numPiNext - numPi);
+        Console.WriteLine($"пи(след)={numPi} точность={accuracy}, текущая разница={diff}");
+        if (diff < accuracy) return numPi;
+        numPiNext = numPi;
         i += 2;
         k *= -1;
         count++;
@@ -36,4 +40,4 @@ double NilPi(ulong i, sbyte k)
 }
 int round = InputNum("Введи точность числа Пи: ");
 double numPi = ReturnPi(round);
-Console.WriteLine($"Пи = {numPi}");
+Console.WriteLine($"Пи = {Math.Round(numPi)}");
