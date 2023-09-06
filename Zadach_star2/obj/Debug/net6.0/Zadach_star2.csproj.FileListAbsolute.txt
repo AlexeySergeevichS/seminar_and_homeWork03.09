@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\Zadach_star2.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\Zadach_star2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\Zadach_star2.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\Zadach_star2.AssemblyInfo.cs
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\Zadach_star2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\bin\Debug\net6.0\Zadach_star2.exe
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\bin\Debug\net6.0\Zadach_star2.deps.json
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\bin\Debug\net6.0\Zadach_star2.runtimeconfig.json
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\bin\Debug\net6.0\Zadach_star2.dll
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\bin\Debug\net6.0\Zadach_star2.pdb
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\Zadach_star2.dll
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\refint\Zadach_star2.dll
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\Zadach_star2.pdb
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\Zadach_star2.genruntimeconfig.cache
+C:\Users\user\Desktop\Семинар C-sh 03.09\Zadach_star2\obj\Debug\net6.0\ref\Zadach_star2.dll
